@@ -9,15 +9,15 @@ public class Main {
         Car hers = new Car(50, "red", "Mercedes");
         System.out.println(mine.start());
         System.out.println(hers.start());
-        System.out.println(mine.getSpeed());
-        System.out.println(hers.getSpeed());
+        System.out.println(mine.speed());
+        System.out.println(hers.speed());
         System.out.println(mine.accelerating());
         System.out.println(hers.accelerating());
         System.out.println(hers.accelerating());
-        System.out.println(mine.getSpeed());
-        System.out.println(hers.getSpeed());
+        System.out.println(mine.speed());
+        System.out.println(hers.speed());
         System.out.println(mine.decelerating());
-        System.out.println(mine.getSpeed());
+        System.out.println(mine.speed());
         System.out.println(mine.stop());
 
         System.out.println("Design your own Car. Enter your car information (Top Speed, Color, and Brand)");

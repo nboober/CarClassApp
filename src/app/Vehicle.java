@@ -16,8 +16,8 @@ abstract class Vehicle {
         this.speed = speed;
     }
 
-    public String getSpeed(){
-        return "The car is going " + this.speed + " mph.";
+    public int getSpeed(){
+        return this.speed;
     }
 
 }

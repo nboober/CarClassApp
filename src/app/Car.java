@@ -35,6 +35,10 @@ public class Car extends Vehicle {
         return str;
     }
 
+    public String speed(){
+        return "The "+ this.color + " " + this.brand + " is going " + getSpeed() + " mph.";
+    }
+
     public String start(){
         return "The "+ this.color + " " + this.brand + " is Starting...";
     }
